@@ -6,18 +6,19 @@ zipkin instrumented library for ice
 zipkin_ice是用于[ice](https://zeroc.com/)的zipkin装备库。
 
 
-### 功能
----
-
-
 ### 依赖
 ---
 * cpprestsdk
 * C++ 11
 
-### 待支持
+### 功能
 ---
 
+
+
+### 待支持
+---
+* 采样
 
 ### 示例
 ---
