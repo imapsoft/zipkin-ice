@@ -1,4 +1,4 @@
-# zipkin_ice
+# zipkin-ice
 zipkin instrumented library for ice
 
 ### 介绍
