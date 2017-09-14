@@ -186,6 +186,8 @@ namespace zipkin_ice
 
 		void report();
 
+		static void wait();
+
 	private:
 		TraceContext nextContext(const TraceContext *parent);
 

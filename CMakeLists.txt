@@ -26,3 +26,21 @@ target_link_libraries(zipkin_ice
   Boost::locale
   OpenSSL::SSL
 )
+
+add_executable(zipkin_ice_test test.cpp)
+target_include_directories(zipkin_ice_test PUBLIC ${CPPREST_INCLUDE})
+target_link_libraries(zipkin_ice_test zipkin_ice)
+target_link_libraries(zipkin_ice_test
+  ${CPPREST_LIB}
+  Boost::boost
+  Boost::random
+  Boost::system
+  Boost::thread
+  Boost::filesystem
+  Boost::chrono
+  Boost::atomic
+  Boost::date_time
+  Boost::regex
+  Boost::locale
+  OpenSSL::SSL
+)
