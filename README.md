@@ -1,36 +1,37 @@
 # zipkin-ice
 zipkin instrumented library for ice
 
-### 介绍
+#### 介绍
 ---
 zipkin-ice是用于[ice](https://zeroc.com/)的zipkin装备库。
 
 
-### 依赖
+#### 依赖
 ---
 * [cpprestsdk](https://github.com/Microsoft/cpprestsdk)
 * C++ 11
 
-### 编译
+#### 编译
+---
 * Windows
   1. vcpkg install cpprestsdk cpprestsdk:x64-windows
   2. mkdir build & cd build & cmake .. -DCMAKE_TOOLCHAIN_FILE=D:\vcpkg-master\scripts\buildsystems\vcpkg.cmake
   3. cmake --build .
 
-### 功能
+#### 功能
 ---
 * 支持HTTP(v2)方式Transport
 * zipkin核心数据结构记录
 * 通过ice的context植入跟踪信息
 
 
-### 暂不支持
+#### 暂不支持
 ---
 * 采样
 * Transport：Kafka,Scribe
 * 128位traceid
 
-### 示例
+#### 示例
 ---
 ```c++
 IceContext ctx;
