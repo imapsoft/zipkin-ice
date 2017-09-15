@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.9)
-project(zipkin_ice
+project(zipkin-ice
         VERSION 0.0.1
         DESCRIPTION "zipkin instrumented library for ice"
         LANGUAGES CXX)
