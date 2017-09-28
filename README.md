@@ -5,6 +5,9 @@ zipkin instrumented library for ice
 ---
 zipkin-ice是用于[ice](https://zeroc.com/)的zipkin装备库。
 
+#### 文章
+---
+[分布式监控系统zipkin介绍](http://www.cnblogs.com/zhongpan/p/7506930.html)
 
 #### 依赖
 ---
